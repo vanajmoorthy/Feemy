@@ -714,9 +714,15 @@
                                     <rect key="frame" x="438" y="2" width="16" height="237"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="Field" destination="Xy3-zq-i0S" id="Kwm-tU-ySZ"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
